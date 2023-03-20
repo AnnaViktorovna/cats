@@ -80,20 +80,22 @@ body {
 
 nav {
     position: fixed;
-    bottom: 40px;
-    left: 0;
+    bottom: 55px;
+    
     z-index: 100;
+    overflow-x: hidden;
 }
 nav ul {
     list-style-type: none;
-    padding-left: 30px;
+    padding-left: 20px;
+    left: 0;
 }
 
 nav ul li {
     text-transform: uppercase;
     color: rgb(8, 44, 30);
-    margin: 40px -15px;
-    transform: translateX(-100%);
+    margin: 40px 0;
+    transform: translateX(-120%);
     transition: transform 0.4s ease-in;
 }
 
@@ -103,7 +105,7 @@ nav ul li i {
 }
 
 nav ul li + li {
-    margin-left: 15px;
+    margin-left: 10px;
     transform: translateX(-150%);
 }
 
@@ -136,9 +138,6 @@ nav ul li + li + li {
     font-style: italic;
 }
 
-.content p {
-    
-}
 
 .text-container {
     text-align: left;
@@ -146,4 +145,5 @@ nav ul li + li + li {
     padding-bottom: 20px;
     color: rgb(8, 70, 89);
     line-height: 1.5;
+    padding-left:10px;
 }
